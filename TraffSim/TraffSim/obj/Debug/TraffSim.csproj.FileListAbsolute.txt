@@ -1,0 +1,13 @@
+C:\Users\Simon\Desktop\TraffSim\TraffSim\bin\Debug\TraffSim.exe.config
+C:\Users\Simon\Desktop\TraffSim\TraffSim\bin\Debug\TraffSim.exe
+C:\Users\Simon\Desktop\TraffSim\TraffSim\bin\Debug\TraffSim.pdb
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.csprojResolveAssemblyReference.cache
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.Form1.resources
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.Properties.Resources.resources
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.csproj.GenerateResource.Cache
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.exe
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.pdb
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.Form2.resources
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.Form3.resources
+C:\Users\Simon\Desktop\TraffSim\TraffSim\obj\Debug\TraffSim.Form0.resources

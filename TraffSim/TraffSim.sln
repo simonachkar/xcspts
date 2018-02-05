@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraffSim", "TraffSim\TraffSim.csproj", "{ECBF4138-B7AD-4799-83F1-B93338D51B3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECBF4138-B7AD-4799-83F1-B93338D51B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBF4138-B7AD-4799-83F1-B93338D51B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBF4138-B7AD-4799-83F1-B93338D51B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBF4138-B7AD-4799-83F1-B93338D51B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E958EBC8-FCA1-421E-9B0A-D3D5BFD2A1F2}
+	EndGlobalSection
+EndGlobal

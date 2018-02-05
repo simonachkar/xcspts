@@ -149,7 +149,7 @@ namespace TraffSim
         // Move Right ------------------------------------------------------------------------------------------------
         private void MoveRight(Car c, ref PictureBox D)
         {
-            if (D.Location.X > 300  && D.Location.X < 320 + 100 * stop_pos_right)
+            if (D.Location.X > 300  && D.Location.X < 320 + 120 * stop_pos_right)
             {
                 if (c.TL.Color == "green")
                 {

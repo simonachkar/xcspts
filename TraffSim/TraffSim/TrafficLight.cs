@@ -148,6 +148,8 @@ namespace TraffSim
         public void Unpause(ref PictureBox pb, string color)
         {
             this.isPaused = false;
+            this.counter_red = 1;
+            this.counter_green = 0;
             this.color = color;
             Draw(pb);
         }

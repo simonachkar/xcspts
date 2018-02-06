@@ -286,25 +286,7 @@ namespace TraffSim
             }
         }
 
-        // Move Right ------------------------------------------------------------------------------------------------
-        private void MoveRight(Car c, ref PictureBox D)
-        {
-            if (D.Location.X > 400 && D.Location.X < 420 + 80 * stop_pos_right)
-            {
-                if (c.TL.Color == "green")
-                {
-                    c.Move(ref D);
 
-                    if (stop_pos_right != -1)
-                        stop_pos_right--;
-                }
-            }
-            else
-            {
-                c.Move(ref D);
-            }
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -317,76 +299,97 @@ namespace TraffSim
         }
 
 
+        // Move Right ------------------------------------------------------------------------------------------------
+        private void MoveRight(Car c, ref PictureBox D)
+        {
+            if (D.Location.X > -100)
+            {
+                if (D.Location.X > 400 && D.Location.X < 415 + 80 * stop_pos_right)
+                {
+                    if (c.TL.Color == "green")
+                    {
+                        c.Move(ref D);
+
+                        if (stop_pos_right != -1)
+                            stop_pos_right--;
+                    }
+                }
+                else
+                {
+                    c.Move(ref D);
+                }
+            }
+
+        }
+
         // Move Left --------------------------------------------------------------------------------------------------
         private void MoveLeft(Car c, ref PictureBox D)
         {
-            if (D.Location.X > 220 - 80 * stop_pos_left && D.Location.X < 240)
+            if (D.Location.X < 800)
             {
-                if (c.TL.Color == "green")
+                if (D.Location.X > 220 - 80 * stop_pos_left && D.Location.X < 235)
+                {
+                    if (c.TL.Color == "green")
+                    {
+                        c.Move(ref D);
+
+                        if (stop_pos_left != -1)
+                            stop_pos_left--;
+                    }
+                }
+                else
                 {
                     c.Move(ref D);
-
-                    if (stop_pos_left != 0)
-                        stop_pos_left -= 2;
                 }
-                else if (c.TL.Color == "red" || c.TL.Color == "yellow")
-                {
-                    stop_pos_left += 2;
-                }
-            }
-            else
-            {
-                c.Move(ref D);
             }
         }
 
         // Move Bottom --------------------------------------------------------------------------------------------------
         private void MoveBottom(Car c, ref PictureBox D)
         {
-            if (D.Location.Y > 320 && D.Location.Y < 340 + 80 * stop_pos_bottom)
+            if (D.Location.Y > -100)
             {
-                if (c.TL.Color == "green")
+                if (D.Location.Y > 320 && D.Location.Y < 335 + 70 * stop_pos_bottom)
+                {
+                    if (c.TL.Color == "green")
+                    {
+                        c.Move(ref D);
+
+                        if (stop_pos_bottom != -1)
+                            stop_pos_bottom--;
+                    }
+                }
+                else
                 {
                     c.Move(ref D);
 
-                    if (stop_pos_bottom != 0)
-                        stop_pos_bottom = -2;
                 }
-                else if (c.TL.Color == "red" || c.TL.Color == "yellow")
-                {
-                    stop_pos_bottom += 2;
-                }
-            }
-            else
-            {
-                c.Move(ref D);
-
             }
         }
 
         // Move Top --------------------------------------------------------------------------------------------------
         private void MoveTop(Car c, ref PictureBox D)
         {
-            if (D.Location.Y > 170 - 80 * stop_pos_top && D.Location.Y < 185)
+            if (D.Location.Y < 800)
             {
-                if (c.TL.Color == "green")
+                if (D.Location.Y > 170 - 70 * stop_pos_top && D.Location.Y < 185)
+                {
+                    if (c.TL.Color == "green")
+                    {
+                        c.Move(ref D);
+
+                        if (stop_pos_top != -1)
+                            stop_pos_top--;
+                    }
+                }
+                else
                 {
                     c.Move(ref D);
 
-                    if (stop_pos_top != 0)
-                        stop_pos_top -= 2;
                 }
-                else if (c.TL.Color == "red" || c.TL.Color == "yellow")
-                {
-                    stop_pos_top += 2;
-                }
-            }
-            else
-            {
-                c.Move(ref D);
-
             }
         }
+
 
         private String Print(Queue q)
         {

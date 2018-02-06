@@ -289,7 +289,7 @@ namespace TraffSim
         // Move Right ------------------------------------------------------------------------------------------------
         private void MoveRight(Car c, ref PictureBox D)
         {
-            if (D.Location.X > 400 && D.Location.X < 420 + 70 * stop_pos_right)
+            if (D.Location.X > 400 && D.Location.X < 420 + 80 * stop_pos_right)
             {
                 if (c.TL.Color == "green")
                 {
@@ -320,7 +320,7 @@ namespace TraffSim
         // Move Left --------------------------------------------------------------------------------------------------
         private void MoveLeft(Car c, ref PictureBox D)
         {
-            if (D.Location.X > 220 - 70 * stop_pos_left && D.Location.X < 240)
+            if (D.Location.X > 220 - 80 * stop_pos_left && D.Location.X < 240)
             {
                 if (c.TL.Color == "green")
                 {
@@ -343,7 +343,7 @@ namespace TraffSim
         // Move Bottom --------------------------------------------------------------------------------------------------
         private void MoveBottom(Car c, ref PictureBox D)
         {
-            if (D.Location.Y > 320 && D.Location.Y < 340 + 70 * stop_pos_bottom)
+            if (D.Location.Y > 320 && D.Location.Y < 340 + 80 * stop_pos_bottom)
             {
                 if (c.TL.Color == "green")
                 {
@@ -367,7 +367,7 @@ namespace TraffSim
         // Move Top --------------------------------------------------------------------------------------------------
         private void MoveTop(Car c, ref PictureBox D)
         {
-            if (D.Location.Y > 170 - 70 * stop_pos_top && D.Location.Y < 185)
+            if (D.Location.Y > 170 - 80 * stop_pos_top && D.Location.Y < 185)
             {
                 if (c.TL.Color == "green")
                 {

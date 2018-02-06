@@ -195,7 +195,7 @@ namespace TraffSim
         {
             if (D.Location.X > -100)
             {
-                if (D.Location.X > 400 && D.Location.X < 420 + 70 * stop_pos_right)
+                if (D.Location.X > 400 && D.Location.X < 415 + 80 * stop_pos_right)
                 {
                     if (c.TL.Color == "green")
                     {
@@ -218,7 +218,7 @@ namespace TraffSim
         {
             if (D.Location.X < 800)
             {
-                if (D.Location.X > 220 - 70 * stop_pos_left && D.Location.X < 240)
+                if (D.Location.X > 220 - 80 * stop_pos_left && D.Location.X < 235)
                 {
                     if (c.TL.Color == "green")
                     {
@@ -240,7 +240,7 @@ namespace TraffSim
         {
             if (D.Location.Y > -100)
             {
-                if (D.Location.Y > 320 && D.Location.Y < 340 + 70 * stop_pos_bottom)
+                if (D.Location.Y > 320 && D.Location.Y < 335 + 70 * stop_pos_bottom)
                 {
                     if (c.TL.Color == "green")
                     {
